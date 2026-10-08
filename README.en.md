@@ -99,9 +99,9 @@ Your information is stored locally. Whether the agent sends relevant content to 
 
 - This is a local work system, not a web app or unattended assistant. There is no background collection, automatic reminder service, or whole-computer scanning.
 - Retrieval covers saved material and does not guarantee current sources. There is no vector search or embedding service.
-- Scanned PDFs, images, and access restrictions may need additional agent work. Saving an original does not guarantee searchable full text.
+- Ingestion typically follows three steps: save the original, extract its text, and build the search index. HTML bodies, plain text, and PDFs with a text layer usually allow direct extraction. Text in scanned PDFs and images usually requires OCR. PDFs or images embedded in a web page must also be retrieved and processed separately.
+- After saving an original, the agent should complete the necessary extraction and indexing, then verify that the body is searchable. If access restrictions, recognition failures, or unsupported formats prevent completion, it should retain the originals obtained and record what remains incomplete and why, so work can resume later. A saved file must not be reported as completed full-text ingestion.
 - Downloads, website adaptation, LaTeX compilation, and form editing use the agent's external tools. There is no universal website crawler.
-- Workbenches remain independent. Optional SSH submissions transfer explicitly selected material; they do not synchronize entire databases.
 
 ## For maintainers and agents
 
