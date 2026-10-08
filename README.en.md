@@ -91,7 +91,9 @@ personal-workbench/
 
 Data directories are created during initialization or use. The repository contains software, documentation, and fictional examples, **not the author's personal database or files**. `.gitignore` excludes personal data, workspaces, deliveries, backups, and the runtime. Local maintenance notes can go in the ignored `HANDOFF.local.md`.
 
-Pushing code to GitHub does not back up personal content. A full backup includes the authoritative SQLite database, originals, and irreplaceable working files; external projects are registered by location only by default. How your agent sends retrieved information to a model depends on the agent and its configuration.
+Pushing code to GitHub does not back up personal content. A full backup includes the authoritative SQLite database, originals, and irreplaceable working files; external projects are registered by location only by default.
+
+Your information is stored locally. Whether the agent sends relevant content to cloud services while working depends on how it runs and is configured.
 
 ## Current boundaries
 
