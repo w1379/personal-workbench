@@ -6,7 +6,7 @@
 
 Personal Workbench is a local, agent-operated workspace for personal information. It keeps records, documents, projects, and outputs searchable and traceable, so your agent can reuse existing material across tasks with less repeated questioning and manual organization.
 
-**You describe what you need. Your agent finds the information, does the work, and preserves the results worth keeping.**
+**You describe what you need. Your agent finds the information, does the work, and saves the results in a searchable form.**
 
 The agent is the only intended user-facing entry point. You do not need to learn database commands, design tables, or maintain indexes. The repository's CLI and Python API are tools for the agent; the repository does not depend on Codex-specific interfaces. You are welcome to try other agents capable of executing local tools; compatibility has not been verified.
 
