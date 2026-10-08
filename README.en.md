@@ -16,7 +16,7 @@ The agent is the only intended user-facing entry point. You do not need to learn
 
 > “Archive notices and their necessary attachments from these university sections for the past three years, so I can look up policies, application requirements, and opportunities later.”
 
-Your agent retrieves material within the requested scope and stores the text, sources, dates, and attachments. You can then ask, “What were the language requirements for exchange programs?” or “Which opportunities relate to undergraduate research?”
+Your agent retrieves material within the requested scope and stores the text, sources, dates, and attachments. You can then ask, “When does course pre-registration open, and what steps do I need to follow?” or “What notices has the university published about this competition?”
 
 Search returns material and evidence locations for the agent to read and compare. Discovered titles, originals without extracted text, searchable content, and inaccessible sources are tracked separately. Coverage gaps are reported rather than treating a list of titles as a complete archive.
 
