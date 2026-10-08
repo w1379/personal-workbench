@@ -14,7 +14,7 @@ The agent is the only intended user-facing entry point. You do not need to learn
 
 ### Build a personal archive of university notices
 
-> “Archive notices and their necessary attachments from these university sections for the past three years, so I can look up policies, application requirements, and opportunities later.”
+> “Archive all university notices and their necessary attachments from the past three years.”
 
 Your agent retrieves material within the requested scope and stores the text, sources, dates, and attachments. You can then ask, “When does course pre-registration open, and what steps do I need to follow?” or “What notices has the university published about this competition?”
 
