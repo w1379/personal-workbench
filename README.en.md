@@ -10,7 +10,7 @@ Personal Workbench is a local, agent-operated workspace for personal information
 
 The agent is the only intended user-facing entry point. The current workflow targets Codex: you do not need to learn database commands, design tables, or maintain indexes. The repository's CLI and Python API are tools for the agent.
 
-## Start with the work you need done
+## Use cases
 
 ### Build a personal archive of university notices
 
@@ -71,7 +71,7 @@ The agent installs an isolated project runtime, checks SQLite full-text search, 
 - “Find what I already have, then help me write this report.”
 - “List the todos I explicitly added.”
 
-The current validation scope is **Windows x64**; other systems have not been verified. This repository is temporarily private for author review. The clone URL above becomes available to all readers when the repository is made public.
+The current validation scope is **Windows x64**; other systems have not been verified.
 
 ## Where information lives
 
