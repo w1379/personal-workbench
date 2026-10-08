@@ -1,0 +1,24 @@
+# Personal content stays local. Git backs up the software, not the workbench data.
+/data/
+/workspaces/
+/derived/
+/exports/
+/cache/
+/backups/
+/system/runtime/
+/system/legacy_kb/config/
+/AGENTS.local.md
+/HANDOFF.local.md
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.db
+.env
+.env.*
+*.env
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db

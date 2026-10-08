@@ -1,0 +1,5 @@
+# Document parsers; no model SDK or model API key is required by the workbench.
+beautifulsoup4==4.15.0
+openpyxl==3.1.5
+pypdf==6.19.0
+python-docx==1.2.0

@@ -1,0 +1,11 @@
+FICTIONAL EXAMPLE — NOT AN ACTUAL UNIVERSITY NOTICE
+
+Example University: Undergraduate Research Workshop
+Publication date: 2026-01-15
+
+本科生科研工作坊面向对资料检索与研究方法感兴趣的同学。
+The fictional workshop covers evidence retrieval and research methods.
+Registration uses the fictional contact demo@example.org.
+
+This document exists only for isolated examples and tests. It must not be
+represented as official evidence or seeded into a user's working library.
