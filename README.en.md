@@ -8,7 +8,7 @@ Personal Workbench is a local, agent-operated workspace for personal information
 
 **You describe what you need. Your agent finds the information, does the work, and preserves the results worth keeping.**
 
-The agent is the only intended user-facing entry point. The current workflow targets Codex: you do not need to learn database commands, design tables, or maintain indexes. The repository's CLI and Python API are tools for the agent; the repository does not depend on Codex-specific interfaces. You are welcome to try other agents capable of executing local tools; compatibility has not been verified.
+The agent is the only intended user-facing entry point. The current workflow is designed for agents: you do not need to learn database commands, design tables, or maintain indexes. The repository's CLI and Python API are tools for the agent; the repository does not depend on Codex-specific interfaces. You are welcome to try other agents capable of executing local tools; compatibility has not been verified.
 
 ## Example use cases
 
