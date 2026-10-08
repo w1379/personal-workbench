@@ -48,13 +48,15 @@ flowchart LR
 
 | Capability | What the workbench provides |
 | --- | --- |
-| Archiving | Original versions, hashes, and sources; text extraction for text files, HTML, PDF, DOCX, and XLSX |
+| Archiving | Original versions, hashes, and sources, with search indexes for extracted text |
 | Retrieval | Full-text and structured queries; filters for domain, authority, topic, history, and item type; supplemental matching for short Chinese terms |
 | Personal information | Typed fields, confirmation status, and revision evidence for precise reuse |
 | Projects and workspaces | Registered external locations or new local task directories, with aliases and relationships |
 | Revisions | Revision checks before updates and retained change history to prevent stale overwrites |
 | Deliveries | Flat output directories, themed ZIPs, manifests, and independent historical batches |
 | Backup and recovery | On-demand database and managed-file backups, verified before restoration into a new directory |
+
+The agent coordinates text extraction. Common formats such as text files, HTML, PDFs with a text layer, DOCX, and XLSX can use the repository's built-in basic extractors. For scans, images, or complex content, the agent can use external tools such as OCR, then archive the results and link them to the originals. The agent chooses the processing method and verifies the extraction and retrieval results.
 
 The agent handles natural-language understanding, query reformulation, collection, and document creation. The workbench uses SQLite and ordinary files, runs on demand, makes no model API calls, and requires no background service.
 
