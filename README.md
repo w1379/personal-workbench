@@ -60,7 +60,7 @@ flowchart LR
 
 ## 开始使用：把仓库交给 Agent
 
-在一台运行 Windows x64、安装了 Codex 和 Python（含 pip）的电脑上，把下面的话交给 Codex（或其他 Agent），并选择一个新的本地目录：
+在一台运行 Windows x64、安装了 Codex（或其他 Agent）和 Python（含 pip）的电脑上，把下面的话交给 Codex，并选择一个新的本地目录：
 
 > 请把 https://github.com/w1379/personal-workbench 克隆到我指定的新目录，阅读仓库根目录的 AGENTS.md，按照 system/docs/SETUP.md 完成安装并初始化一个空工作台。不要导入其他目录的个人资料。完成后告诉我是否可以开始使用。
 
