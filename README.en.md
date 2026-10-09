@@ -60,7 +60,7 @@ The agent handles natural-language understanding, query reformulation, collectio
 
 ## Get started by giving the repository to your agent
 
-On a Windows x64 computer with Codex (or another agent) and Python (including pip), choose a new local directory and give Codex this request:
+Give Codex (or another agent) the following request and choose a new local directory:
 
 > Clone https://github.com/w1379/personal-workbench into the new directory I specify. Read AGENTS.md at the repository root and follow system/docs/SETUP.md to install and initialize an empty workbench. Do not import personal material from other directories. Tell me when it is ready to use.
 

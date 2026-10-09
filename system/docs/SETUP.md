@@ -6,6 +6,8 @@ The user talks to the agent. These commands are the agent's implementation detai
 
 The validated installation path is Windows x64. Use an existing Python with pip to install a separate project runtime; Git is needed to clone the repository. Codex must be able to execute local commands. This repository does not install Codex or configure a model provider.
 
+First check that Git, Python, and pip are available. If a dependency is missing, help install it from official sources within the environment's permissions, then verify it is usable before continuing.
+
 Clone into the user's chosen new directory, read its `AGENTS.md`, and run the following commands from that checkout. Do not copy an existing personal database or reuse the author's paths. If the destination is occupied, inspect it instead of overwriting it.
 
 ## Install, initialize, and verify
