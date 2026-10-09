@@ -18,7 +18,7 @@ The agent is the only intended user-facing entry point. You do not need to learn
 
 Your agent retrieves material within the requested scope and stores the text, sources, dates, and attachments. You can then ask, “When does course pre-registration open, and what steps do I need to follow?” or “What notices has the university published about this competition?”
 
-Search returns material and evidence locations for the agent to read and compare. Discovered titles, originals without extracted text, searchable content, and inaccessible sources are tracked separately. Coverage gaps are reported rather than treating a list of titles as a complete archive.
+Search returns material and evidence locations for the agent to read and compare. Collection progress is recorded, along with any unfinished work and the reasons it remains incomplete.
 
 ### Reuse confirmed information when filling out forms
 
